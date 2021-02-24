@@ -8,7 +8,7 @@ This repository provides course contents, how-to files and coding examples of Mo
 
 Kotlin and Android basics.
 
-###Course Material ###
+### Course Material ###
 
 Youtube Kotlin Tutorial: [Kotlin Basics Video Tutorial](https://www.youtube.com/playlist?list=PLNmsVeXQZj7rylgyThgUldHG8KE6Nbc1O)
 
@@ -41,7 +41,7 @@ Kotlin Cheat Sheet and Quick References: [Raywenderlich Kotlin Cheat Sheet](http
 ## 02 - Layouts and Data Binding ##
 Layout principles and data binding in Android app development with Kotlin.
 
-###Course Material ###
+### Course Material ###
 
 Codelabs: [Android Developer Codelabs 2.1-2.4](https://developer.android.com/courses/kotlin-android-fundamentals/toc#lesson_2_layouts)
 
@@ -74,7 +74,7 @@ Udacity Course: [Lesson 2](https://classroom.udacity.com/courses/ud9012)
 
 Learn about fragments in Android and how to use them with Jetpack's Navigation Component.
 
-###Course Material ###
+### Course Material ###
 
 Codelabs: [Android Developer Codelabs 3.1-3.3](https://developer.android.com/courses/kotlin-android-fundamentals/toc#lesson_3_navigation)
 
