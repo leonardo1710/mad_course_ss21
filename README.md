@@ -95,12 +95,25 @@ Codelabs:
 
 [Architecture Components 5.1-5.2](https://developer.android.com/courses/kotlin-android-fundamentals/toc#lesson_5_architecture_components)
 
+Udacity Courses: 
+
+[Lesson 4 - Lifecycle](https://classroom.udacity.com/courses/ud9012/lessons/e487c600-ed68-4576-a35a-12f211cf032e/concepts/6a155d63-8153-4a56-95cb-1dfdf06aa173)
+
+[Lesson 5 - Architecture](https://classroom.udacity.com/courses/ud9012/lessons/e487c600-ed68-4576-a35a-12f211cf032e/concepts/6a155d63-8153-4a56-95cb-1dfdf06aa173)
+
 
 ## 05 - Data Persistence with Room ##
 Codelabs: 
 
 [Room 6.1-6.3](https://developer.android.com/courses/kotlin-android-fundamentals/toc#lesson_6_room_database_and_coroutines)
 
+[Lesson 6 - Persistence](https://classroom.udacity.com/courses/ud9012/lessons/e487c600-ed68-4576-a35a-12f211cf032e/concepts/6a155d63-8153-4a56-95cb-1dfdf06aa173)
+
 **Coding Examples**
 
 ...
+
+**Additional Material**
+[Data Storage - Android Developer](https://developer.android.com/training/data-storage/room)
+
+[Save Key-Value Data - Preferences](https://developer.android.com/training/data-storage/shared-preferences)
