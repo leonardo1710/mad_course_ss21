@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Number Master</string>
+    <string name="guess_button">Guess</string>
+    <string name="give_up_button">Give Up</string>
+    <string name="game_name">Number Master</string>
+    <string name="hakerl_info">= correct digit in the right place</string>
+    <string name="box_info">= correct digit in the wrong place</string>
+    <string name="cross_info">= incorrect digit</string>
+    <string name="input_hint">Enter your 4 digits guess</string>
+    <string name="restart_button">RESTART</string>
+    <string name="exit_button">Exit</string>
+    <string name="dialog_giveup_button">YES</string>
+    <string name="dialog_continue_button">CONTINUE</string>
+    <string name="give_up_text">Are you really sure you want to give up?</string>
+    <string name="winner_header">Congratulations!</string>
+    <string name="give_up_header">Giving up already?!</string>
+
+</resources>

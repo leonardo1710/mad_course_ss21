@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/user_input"
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="108dp"
+        android:ems="10"
+        android:hint="@string/input_hint"
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@+id/guess_button"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/guess_button"
+        android:layout_width="108dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/mybutton"
+        android:onClick="submitGuess"
+        android:text="@string/guess_button"
+        android:textStyle="bold"
+        android:textColor="#ECD60C"
+        app:layout_constraintBaseline_toBaselineOf="@+id/user_input"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/user_input" />
+
+    <Button
+        android:id="@+id/guiveUp_button"
+        android:layout_width="108dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="172dp"
+        android:background="@drawable/mybutton"
+        android:onClick="giveUp"
+        android:text="@string/give_up_button"
+        android:textStyle="bold"
+        android:textColor="#ECD60C"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/userGuesses"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/hakerl_info"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guiveUp_button" />
+
+    <TextView
+        android:id="@+id/hakerl_info"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/hakerl_info"
+        app:layout_constraintBottom_toTopOf="@+id/square_info"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/hakerl_symbol"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.991" />
+
+    <TextView
+        android:id="@+id/square_info"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/box_info"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/hakerl_symbol"
+        app:layout_constraintTop_toTopOf="@+id/square_symbol" />
+
+    <TextView
+        android:id="@+id/cross_info"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/cross_info"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/hakerl_symbol"
+        app:layout_constraintTop_toBottomOf="@+id/square_info"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/game_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/hakerl_symbol"
+        android:layout_width="24dp"
+        android:layout_height="22dp"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.227"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/symbol_1hakerl" />
+
+    <ImageView
+        android:id="@+id/square_symbol"
+        android:layout_width="24dp"
+        android:layout_height="22dp"
+        android:layout_marginBottom="64dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/square_info"
+        app:layout_constraintHorizontal_bias="0.846"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hakerl_symbol"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/symbol_2square" />
+
+    <ImageView
+        android:id="@+id/cross_symbol"
+        android:layout_width="24dp"
+        android:layout_height="22dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/cross_info"
+        app:layout_constraintHorizontal_bias="0.846"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/square_symbol"
+        app:layout_constraintVertical_bias="0.777"
+        app:srcCompat="@drawable/symbol_3kreuz" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
