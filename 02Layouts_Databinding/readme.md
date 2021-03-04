@@ -145,8 +145,8 @@
 	Add a setOnClickListener event to a button on the binding object and call a function:
 
 	```kotlin
-	binding.clickBtn.setOnClickListener{  
-		changeUsername(it)  
+	binding.clickBtn.setOnClickListener{ button ->  
+		changeUsername(button)  
 	}
 
 	...
