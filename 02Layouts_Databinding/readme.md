@@ -12,7 +12,7 @@
 | Usage: should always be avoided | Usage: layouts that need advanced features (eg. dynamical data loading) | Usage: when no advanced features are needed in the view (should always replace findViewById()) |
 
 
-# Data binding guide
+# Data Binding How To
 
 1. **Enable data binding** in build.gradle(Module:app) file and sync the project (important!)
 
