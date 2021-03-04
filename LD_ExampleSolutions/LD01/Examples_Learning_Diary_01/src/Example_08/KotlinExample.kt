@@ -27,4 +27,14 @@ fun main(){
         println(item)
     }
 
+    val stringWithoutDelimiter = "12345"
+
+    val myThirdIntList = ArrayList<Int>()
+    // iterate over string characters if a string
+    for (idx in stringWithoutDelimiter.indices) {
+        val charAt = stringWithoutDelimiter[idx]
+        println(charAt)
+        myThirdIntList.add(charAt.toInt())
+    }
+
 }
