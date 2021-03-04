@@ -29,15 +29,15 @@
 	Inside your_layout.xml (eg activity_main.xml) **wrap view hierarchy inside layout tags** and place the namespace declarations inside the tag
 
 	```xml
-<layout
-	xmlns:android="http://schemas.android.com/apk/res/android"  
-	xmlns:app="http://schemas.android.com/apk/res-auto"  
-	xmlns:tools="http://schemas.android.com/tools"
->
-	<LinearLayout>
-		...
-	</LinearLayout>
-</layout>
+	<layout
+		xmlns:android="http://schemas.android.com/apk/res/android"  
+		xmlns:app="http://schemas.android.com/apk/res-auto"  
+		xmlns:tools="http://schemas.android.com/tools"
+	>
+		<LinearLayout>
+			...
+		</LinearLayout>
+	</layout>
 	```
 
 3. **Define a binding variable**
@@ -145,20 +145,20 @@
 	Add a setOnClickListener event to a button on the binding object and call a function:
 
 	```kotlin
-binding.clickBtn.setOnClickListener{  
-	changeUsername(it)  
-}
+	binding.clickBtn.setOnClickListener{  
+		changeUsername(it)  
+	}
 
-...
+	...
 
-private fun changeUsername(view: View){  
-	binding.apply {  
-	//Invalidates all binding expressions and requests a new rebind to refresh UI.
-	invalidateAll()  
-	myUser?.username = "John Doe"  
-	myUser?.email = ""  
-	}  
-}
+	private fun changeUsername(view: View){  
+		binding.apply {  
+		//Invalidates all binding expressions and requests a new rebind to refresh UI.
+		invalidateAll()  
+		myUser?.username = "John Doe"  
+		myUser?.email = ""  
+		}  
+	}
 	```
 
 # View binding guide
