@@ -49,7 +49,7 @@ Udacity Course: [Lesson 2](https://classroom.udacity.com/courses/ud9012)
 
 **Coding Examples**
 
-...
+[Coding Example Learning Diary 02](https://github.com/leonardo1710/mad_course_ss21/tree/main/LD_ExampleSolutions/LD02/mad02layoutanddatabinding)
 
 **Additional Material**
 
