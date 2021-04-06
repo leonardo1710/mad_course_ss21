@@ -1,2 +1,0 @@
-include ':app'
-rootProject.name = "mad-02-layout-and-databinding"
