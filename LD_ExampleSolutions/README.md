@@ -11,4 +11,6 @@
 
 ## Learning Diary 04 - Android Lifecycle Components
 
+[LD04 Example Solution](https://github.com/leonardo1710/mad04lifecycle-and-architecture-components-solution)
+
 ## Learning Diary 05 - Room 
