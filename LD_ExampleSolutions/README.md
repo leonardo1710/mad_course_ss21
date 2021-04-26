@@ -1,7 +1,7 @@
 
 ## Learning Diary 01 - Number Master Kotlin
 
-[Example Solutions from MAD 2020](https://github.com/leonardo1710/Examples_Learning_Diary_01)
+[LD01 Example Solutions from MAD 2020](https://github.com/leonardo1710/Examples_Learning_Diary_01)
 
 ## Learning Diary 02 - Layouts and Data Binding
 
