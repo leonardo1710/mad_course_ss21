@@ -18,3 +18,5 @@
 [LD04 Example Solution](https://github.com/leonardo1710/mad04lifecycle-and-architecture-components-solution)
 
 ## Learning Diary 05 - Room 
+
+[LD05 Example Solution](https://github.com/leonardo1710/mad05-persistence-room-solution)
